@@ -13,6 +13,7 @@ package Contacts;
 // use nextLine()
 //start with a class with a
 //first - blueprint content - two private properties-Name and Phone number, constructors and getters and setters for those properties,
+//^ did this in our Contact.java class
 // second class - scanner (grabs value of info user types into console and sets it into a variable) (where user input is going to be)searching, deleting, editing or adding, constructors, create contact object info from blueprint in first class.
 // third - calling functions for display and grab user input , generating menu getters and setters,
 // sout "enter name)
