@@ -4,31 +4,28 @@ import java.util.Scanner;
 
 public class Contact {
     private Scanner scanner;
-    private String firstName;
-    private String lastName;
+    private String Name;
     private String phoneNumber;
 
-public Contact(String firstName, String lastName, String phoneNumber)
-        {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.phoneNumber = phoneNumber;
-        }
-
-    public void setFirstName(String input){
-        this.firstName = input;
-    }
-    public String getFirstName(){
-        return firstName;
+    public Contact(String Name, String phoneNumber) {
+        this.Name = Name;
+        this.phoneNumber = phoneNumber;
     }
 
-    public void setLastName(String input){
-        this.lastName = input;
-    }
-    public String getLastName(){
-        return lastName;
+    public void setName(String input) {
+        this.Name = input;
     }
 
-
+    public String getName() {
+        return Name;
     }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+}
 
