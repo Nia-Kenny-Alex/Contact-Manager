@@ -1,6 +1,10 @@
 package Contacts;
 
 public class ContactManager {
+    public static void main(String[] args) {
+        ContactMethods.showMenu();
+
+    }
 }
 
 
